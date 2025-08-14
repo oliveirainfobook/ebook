@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>As Aventuras do Alfabeto Falante - O eBook Mágico para Crianças</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Aplicando fontes personalizadas */
+        body {
+            font-family: 'Nunito', sans-serif;
+            background-color: #f0f9ff; /* Azul céu bem clarinho */
+        }
+        h1, h2, h3, .font-display {
+            font-family: 'Baloo 2', cursive;
+        }
+        /* Fundo com nuvens fofas (SVG) */
+        body {
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M52.5 30C52.5 42.4264 42.4264 52.5 30 52.5C17.5736 52.5 7.5 42.4264 7.5 30C7.5 17.5736 17.5736 7.5 30 7.5C42.4264 7.5 52.5 17.5736 52.5 30Z' fill='%23ffffff' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Cabeçalho -->
+    <header class="py-8 px-4 overflow-hidden">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl md:text-6xl font-bold text-sky-600 drop-shadow-lg">As Aventuras do Alfabeto Falante</h1>
+            <p class="text-xl text-gray-600 mt-2">O livro digital que transforma o aprendizado em pura diversão!</p>
+            
+            <div class="mt-8 flex flex-col md:flex-row items-center justify-center gap-8">
+                <!-- Imagem da Capa -->
+                <img src="https://placehold.co/300x400/f87171/ffffff?text=Capa+do+eBook" 
+                     alt="Capa do eBook As Aventuras do Alfabeto Falante"
+                     class="rounded-lg shadow-2xl w-60 md:w-72 transform hover:scale-105 transition-transform duration-300">
+                
+                <!-- Descrição e CTA Principal -->
+                <div class="md:text-left max-w-lg">
+                    <p class="text-lg text-gray-700 mb-6">
+                        Junte-se às letras em uma jornada mágica! Cada página é uma nova descoberta, com personagens cativantes que ensinam de forma lúdica e inesquecível.
+                    </p>
+                    <div class="relative inline-block mb-6">
+                        <span class="absolute -top-3 -right-5 bg-yellow-400 text-yellow-900 text-sm font-bold px-3 py-1 rounded-full transform rotate-12 shadow-md">OFERTA ESPECIAL</span>
+                        <p class="bg-green-100 text-green-800 font-semibold p-3 rounded-lg shadow-sm">Para os 100 primeiros compradores!</p>
+                    </div>
+                    <a href="#final-cta" class="w-full md:w-auto inline-block bg-pink-500 hover:bg-pink-600 text-white font-bold text-2xl py-4 px-10 rounded-full shadow-lg transform hover:scale-105 transition-transform duration-300">
+                        Compre Agora!
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Galeria de Imagens -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-orange-500 mb-8">Espie Dentro do Livro!</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+                <img src="https://placehold.co/400x400/60a5fa/ffffff?text=Letra+A+sorrindo" alt="Ilustração da letra A" class="rounded-xl shadow-lg hover:shadow-2xl transform hover:-rotate-3 transition-all duration-300">
+                <img src="https://placehold.co/400x400/34d399/ffffff?text=Letra+B+brincando" alt="Ilustração da letra B" class="rounded-xl shadow-lg hover:shadow-2xl transform hover:rotate-3 transition-all duration-300">
+                <img src="https://placehold.co/400x400/fbbf24/ffffff?text=Letra+C+cantando" alt="Ilustração da letra C" class="rounded-xl shadow-lg hover:shadow-2xl transform hover:-rotate-3 transition-all duration-300">
+                <img src="https://placehold.co/400x400/c084fc/ffffff?text=Letra+D+dançando" alt="Ilustração da letra D" class="rounded-xl shadow-lg hover:shadow-2xl transform hover:rotate-3 transition-all duration-300">
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos de Pais -->
+    <section class="py-16 bg-sky-50">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-teal-500 mb-10">O que os pais estão dizendo:</h2>
+            <div class="flex flex-wrap justify-center gap-8">
+                <!-- Depoimento 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-lg max-w-sm w-full transform hover:scale-105 transition-transform">
+                    <p class="text-gray-600">"Meu filho não largava o tablet. Agora ele não larga o 'Alfabeto Falante'! Aprendeu as letras em uma semana, incrível!"</p>
+                    <p class="font-bold text-sky-600 mt-4">- Juliana M.</p>
+                </div>
+                <!-- Depoimento 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-lg max-w-sm w-full transform hover:scale-105 transition-transform">
+                    <p class="text-gray-600">"As ilustrações são lindas e a história é muito fofa. Finalmente um material educativo que é realmente divertido."</p>
+                    <p class="font-bold text-sky-600 mt-4">- Ricardo P.</p>
+                </div>
+                <!-- Depoimento 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-lg max-w-sm w-full transform hover:scale-105 transition-transform">
+                    <p class="text-gray-600">"O guia de atividades que vem de bônus é fantástico! Usamos todos os fins de semana. Recomendo de olhos fechados."</p>
+                    <p class="font-bold text-sky-600 mt-4">- Amanda C.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bloco de Benefícios -->
+    <section class="py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-purple-600 mb-10">Um mundo de vantagens para seu pequeno</h2>
+            <div class="grid md:grid-cols-3 gap-8 text-left">
+                <!-- Benefício 1 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg border-t-4 border-yellow-400">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-2">Aprendizado Divertido</h3>
+                    <p class="text-gray-600">Diga adeus à decoreba! Com personagens e histórias, as crianças aprendem o alfabeto de forma natural e intuitiva.</p>
+                </div>
+                <!-- Benefício 2 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg border-t-4 border-green-400">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-2">Estímulo à Imaginação</h3>
+                    <p class="text-gray-600">Um universo colorido e cheio de magia que inspira a criatividade e o amor pela leitura desde cedo.</p>
+                </div>
+                <!-- Benefício 3 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg border-t-4 border-pink-400">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-2">Material Extra Grátis!</h3>
+                    <p class="text-gray-600">Compre agora e receba um Guia de Atividades para imprimir e continuar a diversão fora das telas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contagem Regressiva e CTA Final -->
+    <section id="final-cta" class="py-16 bg-gradient-to-r from-sky-400 to-blue-500 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold drop-shadow-md mb-4">A oferta especial termina em:</h2>
+            
+            <!-- Contagem Regressiva -->
+            <div id="countdown" class="text-4xl md:text-6xl font-bold my-6 flex justify-center gap-4 md:gap-8 drop-shadow-lg">
+                <div><span id="days"></span><div class="text-sm font-normal">Dias</div></div>
+                <div><span id="hours"></span><div class="text-sm font-normal">Horas</div></div>
+                <div><span id="minutes"></span><div class="text-sm font-normal">Minutos</div></div>
+                <div><span id="seconds"></span><div class="text-sm font-normal">Segundos</div></div>
+            </div>
+            
+            <p class="max-w-2xl mx-auto mb-8">Não perca a chance de garantir o desenvolvimento do seu filho com uma ferramenta divertida e eficaz. O acesso é imediato!</p>
+            
+            <a href="#" class="w-full md:w-auto inline-block bg-yellow-400 hover:bg-yellow-500 text-yellow-900 font-bold text-2xl py-4 px-10 rounded-full shadow-lg transform hover:scale-105 transition-transform duration-300">
+                Garantir Meu eBook Agora!
+            </a>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="bg-gray-800 text-gray-300 py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p><strong>Contato:</strong> contato@alfabetofalante.com</p>
+            <p class="mt-2 text-sm">&copy; 2024 As Aventuras do Alfabeto Falante. Todos os direitos reservados.</p>
+            <a href="#" class="text-sm text-gray-400 hover:text-white mt-2 inline-block">Política de Privacidade</a>
+        </div>
+    </footer>
+
+    <script>
+        // Script da Contagem Regressiva
+        (function () {
+            // Define a data final da contagem (daqui a 3 dias)
+            const countDownDate = new Date().getTime() + 3 * 24 * 60 * 60 * 1000;
+
+            const x = setInterval(function() {
+                const now = new Date().getTime();
+                const distance = countDownDate - now;
+
+                // Cálculos de tempo
+                const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                // Exibe o resultado nos elementos
+                document.getElementById("days").innerText = String(days).padStart(2, '0');
+                document.getElementById("hours").innerText = String(hours).padStart(2, '0');
+                document.getElementById("minutes").innerText = String(minutes).padStart(2, '0');
+                document.getElementById("seconds").innerText = String(seconds).padStart(2, '0');
+
+                // Se a contagem terminar
+                if (distance < 0) {
+                    clearInterval(x);
+                    document.getElementById("countdown").innerHTML = "<div class='text-2xl'>OFERTA ENCERRADA</div>";
+                }
+            }, 1000);
+        })();
+    </script>
+</body>
+</html>
